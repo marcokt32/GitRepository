@@ -394,3 +394,23 @@ footer {
 .atencao:before {
 	content: "⚠";
 }
+
+/* responsivo */
+
+@media screen and (max-width: 480px) {
+	.principal {
+		width: auto;
+	}
+
+	.Logo {
+		width: 5rem;
+		left: 1.3em;
+	}
+
+	.titulo {
+		position: static;
+		width: auto;
+		padding: 1em;
+		margin-left: 2.3em;
+	}
+}
