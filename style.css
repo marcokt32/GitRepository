@@ -362,6 +362,7 @@ footer {
 @media screen and (max-width: 480px) {
 	.principal, #mensagem, .botoes-retangulo, .digite, .rodape, .retorno {
 		width: auto;
+	text-align: center;
 	}
 
 	.Logo {
@@ -382,9 +383,14 @@ footer {
 		margin-left: .6em;
 	}
 
+	#mensagem {
+		height: 5em;}
+
 	.botoes-retangulo {
 		position: static;
 		display: block;
+		margin-left: 1.4em;
+		margin-top: 17em;
 	}
 
 	.enviar, .descriptografar {
@@ -394,7 +400,7 @@ footer {
 
 	.rodape {
 		position: static;
-		margin-top: 2em;
+		margin-top: 12em;
 	}
 
 	.rodape p {
@@ -405,10 +411,22 @@ footer {
 		text-align: center;
 		margin: 1em;
 		position: static;
-		margin-top: 28em;
+		margin-top: 9em;
+		height: 15em;
+		box-shadow: 0px 12px 16px -8px rgba(5, 5, 0, 1);
 	}
 
-	.desenho, .sem-mensagem, .sem-mensagem-p {
+	.sem-mensagem {
 		position: static;
+		padding-top: 3em;
+	}
+
+	.sem-mensagem-p {
+		position: static;
+		margin-top: 1em;
+	}
+
+	.desenho {
+		display: none;
 	}
 }
