@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Decodificador</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+	<body class="principal">
+		<header>
+			<img src="Logo.svg" class="Logo">
+			<h1 class="titulo">Challenge: Decodificador</h1>
+		</header>
+
+		<main>
+			<script src="script.js"></script>
+
+			<div class="digite">
+				<fieldset>
+					<label for="mensagem"></label>
+					<textarea type="texto" id="mensagem" class="input-padrao" placeholder="Digite o texto aqui"></textarea>
+				</fieldset>
+
+				<fieldset class="botoes-retangulo">
+					<p class="atencao">Atenção: Não use acento!</p>
+					<button class="enviar" onclick="criptografa()">Criptografar</button>
+					<button class="descriptografar" onclick="descriptografa()">Descriptografar</button>
+				</fieldset>
+
+			</div>
+
+			<div class="retorno">
+				<textarea type="texto" id="resultado" class="display"></textarea>
+				<div>
+					<img src="desenho.svg" class="desenho">
+					<h3 class="sem-mensagem">Nenhuma mensagem encontrada</h3>
+					<p class="sem-mensagem-p">Digite um texto que você deseja criptografar ou descriptografar</p>
+				</div>
+					<button id="copiar" type="button" onclick="copyToClickBoard()">Copiar</button>
+					<button id="reiniciar" type="button" onclick="recarregar()">Reiniciar</button>
+			</div>
+
+		</main>
+
+		<footer>
+			<img src="Logo-branco.svg">
+			<p class="copyright">&copy; Copyright By Marco Quintela - 2022</p>
+		</footer>
+	</body>
+</html>
