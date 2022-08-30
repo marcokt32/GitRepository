@@ -390,7 +390,7 @@ footer {
 		position: static;
 		display: block;
 		margin-left: 1.4em;
-		margin-top: 17em;
+		margin-top: 17.5em;
 	}
 
 	.enviar, .descriptografar {
@@ -400,7 +400,7 @@ footer {
 
 	.rodape {
 		position: static;
-		margin-top: 12em;
+		margin-top: 14em;
 	}
 
 	.rodape p {
@@ -428,5 +428,14 @@ footer {
 
 	.desenho {
 		display: none;
+	}
+
+	.atencao {
+		position: static;
+	}
+
+	#copiar, #reiniciar {
+		position: static;
+		margin-top: 6em;
 	}
 }
