@@ -20,7 +20,7 @@
 		<main>
 			<script src="script.js"></script>
 
-			<div class="digite">
+			<section class="digite">
 				<fieldset>
 					<label for="mensagem"></label>
 					<textarea type="texto" id="mensagem" class="input-padrao" placeholder="Digite o texto aqui"></textarea>
@@ -31,21 +31,20 @@
 					<button class="enviar" onclick="criptografa()">Criptografar</button>
 					<button class="descriptografar" onclick="descriptografa()">Descriptografar</button>
 				</fieldset>
-
-			</div>
-
-			<div class="retorno">
-				<img src="desenho.svg" class="desenho">
+			</section>
+			<section class="retorno">
+				<img src="searching.gif" class="desenho" alt="imagem da caixa de retorno">
 				<h3 class="sem-mensagem">Nenhuma mensagem encontrada</h3>
 				<p class="sem-mensagem-p">Digite um texto que você deseja criptografar ou descriptografar</p>
+			</section>
+			<section class="botoes-retorno">
 				<button id="copiar" type="button" onclick="copyToClickBoard()">Copiar</button>
 				<button id="reiniciar" type="button" onclick="recarregar()">Reiniciar</button>
-			</div>
-
+			</section>
 		</main>
 
 		<footer class="rodape">
-			<img src="Logo-branco.svg">
+			<img src="Logo-branco.png">
 			<p class="copyright">&copy; Copyright By Marco Quintela - 2022</p>
 		</footer>
 	</body>

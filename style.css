@@ -8,10 +8,8 @@
 	gap: 40px;
 
 	position: absolute;
-	width: 95px;
 	height: 138px;
-	left: 30px;
-	top: 23px;
+	left: -20px;
 }
 
 
@@ -35,7 +33,7 @@
 
 	/* Dark blue/Mark green/mark-green-100 */
 
-	color: #163200;
+	color: rgb(0, 50, 100);
 }
 
 .principal {
@@ -79,7 +77,7 @@
 	font-weight: 400;
 	font-size: 32px;
 	line-height: 150%;
-	color: #163200;
+	color: rgb(0, 50, 100);
 }
 
 #area-texto {
@@ -166,7 +164,7 @@ height: 67px;
 
 /* Dark blue/dark-blue-300 */
 
-background: #203E1B;
+background: rgb(0, 50, 100);
 border-radius: 24px;
 border: none;
 
@@ -185,16 +183,9 @@ color: #FFFFFF
 }
 
 .enviar:hover {
-	background: #3b7831;
+	background: rgb(0, 50, 150);
 	font-size: 1.5em;
 	font-weight: bold;
-}
-
-.enviar:active {
-	background: #3b7831;
-	font-size: 1.5em;
-	font-weight: bold;
-	border: black solid;
 }
 
 .botoes-retangulo .descriptografar{
@@ -212,7 +203,7 @@ color: #FFFFFF
 	background: #D8DFE8;
 	/* Dark blue/dark-blue-300 */
 
-	border: 1px solid #203E1B;
+	border: 1px solid rgb(0, 50, 100);
 	border-radius: 24px;
 
 	font-family: 'Inter';
@@ -224,36 +215,36 @@ color: #FFFFFF
 
 	/* Dark blue/dark-blue-300 */
 
-	color: #203E1B;
+	color: rgb(0, 50, 100);
 }
 
 .descriptografar:hover {
-	background: #8993a1;
+	background: #ffffff;
 	font-size: 1.5em;
 	font-weight: bold;
-}
-
-.descriptografar:active {
-	background: #8993a1;
-	font-size: 1.5em;
-	font-weight: bold;
-	border: solid;
 }
 
 footer {
 
+	height: 100px;
 	position: absolute;
 	top: 700px;
 	width: 1343px;
 	text-align: center;
-	background: url(bg.jpg);
+	background: rgb(0, 50, 100);
 	padding: 40px 0;
 }
 
 .copyright {
 	color: #FFFFFF;
 	font-size: 11px;
-	margin-top: 20px;
+	margin-top: 5px;
+}
+
+.botoes-retorno {
+	position: absolute;
+	left: 900px;
+	top: 50px;
 }
 
 #copiar {
@@ -267,7 +258,7 @@ footer {
 
     /* Dark blue/dark-blue-300 */
 
-	background: #203E1B;
+	background: rgb(0, 50, 100);
 	border-radius: 24px;
 	border: none;
 
@@ -286,16 +277,9 @@ footer {
 }
 
 #copiar:hover {
-	background: #3b7831;
+	background: rgb(0, 50, 100);
 	font-size: 1em;
 	font-weight: bold;
-}
-
-#copiar:active {
-	background: #3b7831;
-	font-size: 1em;
-	font-weight: bold;
-	border: black solid;
 }
 
 #reiniciar {
@@ -312,7 +296,7 @@ footer {
 	background: #D8DFE8;
 	/* Dark blue/dark-blue-300 */
 
-	border: 1px solid #203E1B;
+	border: 1px solid rgb(0, 50, 100);
 	border-radius: 24px;
 
 	font-family: 'Inter';
@@ -324,20 +308,13 @@ footer {
 
 	/* Dark blue/dark-blue-300 */
 
-	color: #203E1B;
+	color: rgb(0, 50, 100);
 }
 
 #reiniciar:hover {
-	background: #8993a1;
+	background: #ffffff;
 	font-size: 1em;
 	font-weight: bold;
-}
-
-#reiniciar:active {
-	background: #8993a1;
-	font-size: 1em;
-	font-weight: bold;
-	border: solid;
 }
 
 .atencao {
@@ -351,7 +328,7 @@ footer {
 	width: 252px;
 	height: 18px;
 	left: 1em;
-	top: -1.1em
+	top: -1em;
 }
 
 .atencao:before {
@@ -367,15 +344,18 @@ footer {
 	}
 
 	.Logo {
-		width: 5rem;
+		display: none;
 		left: 1.3em;
+		width: 1em;
 	}
 
 	.titulo {
+		font-size: 1.7em;
+		display: block;
 		position: static;
 		width: auto;
 		padding: 1em;
-		margin-left: 2.3em;
+		border-bottom: #ccc 1px solid;
 	}
 
 	.digite {
@@ -391,7 +371,7 @@ footer {
 		position: static;
 		display: block;
 		margin-left: 1.4em;
-		margin-top: 17.5em;
+		margin-top: 20em;
 	}
 
 	.enviar, .descriptografar {
@@ -401,7 +381,7 @@ footer {
 
 	.rodape {
 		position: static;
-		margin-top: 14em;
+		margin-top: 17em;
 	}
 
 	.rodape p {
@@ -433,9 +413,15 @@ footer {
 
 	.atencao {
 		position: static;
+		margin-top: 1em;
+	}
+
+	.botoes-retorno {
+		position: static;
 	}
 
 	#copiar, #reiniciar {
 		position: static;
+		vertical-align: bottom;
 	}
 }
