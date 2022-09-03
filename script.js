@@ -12,6 +12,7 @@ function criptografa() {
     document.querySelector(".sem-mensagem").innerText = textoCriptografado
     document.querySelector(".sem-mensagem").style.height = '50%'
     document.querySelector(".sem-mensagem").style.top = '10px'
+    document.querySelector(".sem-mensagem").style.paddingTop = '2em'
     document.getElementById('copiar').style.display = "initial"
     document.getElementById('reiniciar').style.display = "initial"
 }
@@ -30,6 +31,7 @@ function descriptografa() {
     document.querySelector(".sem-mensagem").innerText = textoCriptografado
     document.querySelector(".sem-mensagem").style.height = '50%'
     document.querySelector(".sem-mensagem").style.top = '10px'
+    document.querySelector(".sem-mensagem").style.paddingTop = '2em'
     document.getElementById('copiar').style.display = "initial"
     document.getElementById('reiniciar').style.display = "initial"
 }

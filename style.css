@@ -376,9 +376,9 @@ footer {
 	}
 
 	.digite {
+		width: 90%;
 		position: static;
-		margin-top: 3em;
-		margin-left: .6em;
+		margin: 3em 5%;
 	}
 
 	#mensagem {
@@ -387,7 +387,6 @@ footer {
 	.botoes-retangulo {
 		position: static;
 		display: block;
-		margin-left: 1.4em;
 		margin-top: 22em;
 	}
 
@@ -406,8 +405,9 @@ footer {
 	}
 
 	.retorno {
+		width: 90%;
 		text-align: center;
-		margin: 1em;
+		margin: 5%;
 		position: absolute;
 		top: 345px;
 		left: 0;
@@ -440,7 +440,8 @@ footer {
 	}
 
 	.botoes-retorno {
-		position: static;
+		left: -20px;
+		top: 5px;
 	}
 
 	#copiar, #reiniciar {
