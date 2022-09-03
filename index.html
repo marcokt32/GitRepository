@@ -8,22 +8,27 @@
 		<title>Decodificador</title>
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" type="imagem/x-icon" href="favicon.png">
 
 	</head>
 
 	<body class="principal">
 		<header>
-			<img src="Logo.svg" class="Logo">
+			<img src="Logo.svg" class="Logo" alt="Logo do desenvolvedor">
 			<h1 class="titulo">Challenge: Decodificador</h1>
+			<div class="social-icons">
+				<a href="https://www.linkedin.com/in/marcoquintela/"><img src="linkedin.png" class="social" alt="icone atalho linkedin"></a>
+				<a href="https://github.com/marcokt32/GitRepository"><img src="github.png" class="social" alt="icone atalho github"></a>
+			</div>
 		</header>
 
 		<main>
 			<script src="script.js"></script>
-
+			<img src="badge.png" class="badge" alt="icone de conclusão do projeto">
 			<section class="digite">
 				<fieldset>
 					<label for="mensagem"></label>
-					<textarea type="texto" id="mensagem" class="input-padrao" placeholder="Digite o texto aqui"></textarea>
+					<textarea type="text" id="mensagem" class="input-padrao" placeholder="Digite o texto aqui"></textarea>
 				</fieldset>
 
 				<fieldset class="botoes-retangulo">
@@ -34,7 +39,7 @@
 			</section>
 			<section class="retorno">
 				<img src="searching.gif" class="desenho" alt="imagem da caixa de retorno">
-				<h3 class="sem-mensagem">Nenhuma mensagem encontrada</h3>
+				<textarea type="text" class="sem-mensagem" placeholder="Nenhuma mensagem encontrada" readonly></textarea>
 				<p class="sem-mensagem-p">Digite um texto que você deseja criptografar ou descriptografar</p>
 			</section>
 			<section class="botoes-retorno">

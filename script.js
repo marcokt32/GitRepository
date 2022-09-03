@@ -9,10 +9,9 @@ function criptografa() {
 
     document.querySelector(".desenho").style.display = "none"
 	document.querySelector(".sem-mensagem-p").style.display = "none"
-    document.querySelector(".sem-mensagem").innerHTML = textoCriptografado
-    document.querySelector(".sem-mensagem").style.top = "100px"
-    document.querySelector(".sem-mensagem").style.position = "static"
-    document.querySelector(".sem-mensagem").style.margin = "auto"
+    document.querySelector(".sem-mensagem").innerText = textoCriptografado
+    document.querySelector(".sem-mensagem").style.height = '50%'
+    document.querySelector(".sem-mensagem").style.top = '10px'
     document.getElementById('copiar').style.display = "initial"
     document.getElementById('reiniciar').style.display = "initial"
 }
@@ -28,8 +27,9 @@ function descriptografa() {
 
     document.querySelector(".desenho").style.display = "none"
 	document.querySelector(".sem-mensagem-p").style.display = "none"
-    document.querySelector(".sem-mensagem").innerHTML = textoCriptografado
-    document.querySelector(".sem-mensagem").style.top = "100px"
+    document.querySelector(".sem-mensagem").innerText = textoCriptografado
+    document.querySelector(".sem-mensagem").style.height = '50%'
+    document.querySelector(".sem-mensagem").style.top = '10px'
     document.getElementById('copiar').style.display = "initial"
     document.getElementById('reiniciar').style.display = "initial"
 }
